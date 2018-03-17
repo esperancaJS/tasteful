@@ -1,0 +1,38 @@
+$num: 15;
+$dur: 2s;
+$bkg: #006666;
+$bkg-dk: mix(black, $bkg, 60);
+$bar: #56B5BF;
+$bar-dk: mix(black, $bar, 35);
+
+.wrapper {
+    height: 80px;
+}
+
+.bars {
+    height: 2px;
+    background: $bar;
+    position: absolute;
+    left: 0;
+    width: 5px;
+    right: 0;
+    margin: 0 auto;
+
+    @for $i from 1 through 15 {
+        &:nth-child(#{$i}) {
+            margin-top: $i * 5px;
+            -webkit-animation: grow $dur ease-in-out infinite;
+            -webkit-animation-delay: $dur / $num * $i;
+            animation: grow $dur ease-in-out infinite;
+            animation-delay: $dur / $num * $i;
+        }
+    }
+}
+
+@keyframes grow {
+    50% {
+        width: 40px;
+        background: $bar-dk;
+        transform: rotate(20deg);
+    }
+}
