@@ -3,7 +3,7 @@ import style from './style.scss';
 import { Parallax, Background } from 'react-parallax';
 
 import Cube from './cube';
-// import Cubes from './cubes';
+import Cubes from './cubes';
 import Logo from './logo';
 
 const Home = () => (
@@ -26,7 +26,7 @@ const Home = () => (
 		</Parallax>
 
 		<div class={style.content}>
-			{/* <Cubes /> */}
+			<Cubes />
 			<div class="container">
 				<div class="row justify-content-center py-5">
 					<div class="col-8">

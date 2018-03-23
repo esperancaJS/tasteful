@@ -10,23 +10,11 @@ export default class Cubes extends Component {
             random: function (e, t) {
                 return Math.random() * (t - e) + e;
             },
-            arrayRandom: function (e) {
-                return e[Math.floor(Math.random() * e.length)];
-            },
             interpolate: function (e, t, n) {
                 return e * (1 - n) + t * n;
             },
-            rangePosition: function (e, t, n) {
-                return (n - e) / (t - e);
-            },
-            clamp: function (e, t, n) {
-                return Math.max(Math.min(e, n), t);
-            },
             queryArray: function (e, t) {
                 return t || (t = document.body), Array.prototype.slice.call(t.querySelectorAll(e));
-            },
-            ready: function (e) {
-                document.readyState == 'complete' ? e() : document.addEventListener('DOMContentLoaded', e);
             }
         };
         const reduceMotion = matchMedia("(prefers-reduced-motion)").matches;
@@ -49,6 +37,25 @@ export default class Cubes extends Component {
             // =================
             // shared references
             // =================
+
+
+            const templateHTML = `
+                <template id="cube-template">
+                    <div class="cube">
+                        <div class="shadow"></div>
+                        <div class="sides">
+                        <div class="back"></div>
+                        <div class="top"></div>
+                        <div class="left"></div>
+                        <div class="front"></div>
+                        <div class="right"></div>
+                        <div class="bottom"></div>
+                        </div>
+                    </div>
+                </template>
+            `;
+
+            document.getElementById("template-holder").innerHTML = templateHTML;
 
             const template = document.getElementById("cube-template");
             console.log('template', template);
@@ -322,19 +329,7 @@ export default class Cubes extends Component {
             <div id="cube-wrapper">
 
                 <main>
-                    <template id="cube-template">
-                        <div class="cube">
-                            <div class="shadow"></div>
-                            <div class="sides">
-                                <div class="back"></div>
-                                <div class="top"></div>
-                                <div class="left"></div>
-                                <div class="front"></div>
-                                <div class="right"></div>
-                                <div class="bottom"></div>
-                            </div>
-                        </div>
-                    </template>
+                    <div id="template-holder"></div>
                 </main>
 
             </div>
