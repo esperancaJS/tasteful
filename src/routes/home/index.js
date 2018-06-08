@@ -19,8 +19,11 @@ const Home = () => (
 					>Tasteful</h1>
 					<h2
 						class={`p ${style.p}`}
-					>We are a group of developers, all ex-tech-founders, on a mission to develop world changing software.</h2>
-					<a class={style.link} href={``}>Hire us!</a>
+					>
+						We help humans enjoy making high quality and infinitelly
+						scaleable software, as it's meant to be.
+					</h2>
+					<a class={style.link} href={``}>Book us!</a>
 				</div>
 			</div>
 		</Parallax>
@@ -32,13 +35,20 @@ const Home = () => (
 					<div class="col-8">
 						<h1
 							class="h1 pb-3"
-						>Why us?</h1>
+						>Our approach</h1>
 
 						<ul class={style.list}>
 							<li>
-								<h1 class="h4">We are not an agency</h1>
+								<h1 class="h4">General Accessibility</h1>
 								<p class={`p ${style.p}`} >
-									Instead, a self chosen group of developers who enjoy the work we can do toghether.
+									Software is meant to simplify things.
+									<br/>
+									Yet, the industry insists on labeling tech expertises as advanced.
+									<br/>
+									<br/>
+									We condense the key takeaways into easily consumeable information, 
+									without need for prior knowledge.
+
 								</p>
 							</li>
 							<li>
@@ -52,7 +62,7 @@ const Home = () => (
 								</p>
 							</li>
 							<li>
-								<h1 class="h4">We keep learning faster</h1>
+								<h1 class="h4">We learn to teach</h1>
 								<p class={`p ${style.p}`} >
 									Software development is an ever evolving landscape, however many best practices 
 								 	in architecture, work ethic, project development, etc, strenghten 
@@ -86,7 +96,49 @@ const Home = () => (
 					<div class="col-8">
 						<h1
 							class="h1 pb-3"
-						>Why not us?</h1>
+						>Our workshops</h1>
+
+						<ul class={style.list}>
+							<li>
+								<h1 class="h4">We <b>only</b> pick work that motivates us</h1>
+								<p class={`p ${style.p}`} >
+									Not trying to be dismissive of projects we might not accept! <br />
+									We simply learned that by focusing on projects we are passionate about working on we 
+									can output greater value with less aparent effort.
+								</p>
+							</li>
+							<li>
+								<h1 class="h4">We work better from home</h1>
+								<p class={`p ${style.p}`} >
+									Meaning we only come to the office for meetings.
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<span>
+			<Parallax
+				bgImage={require('../../assets/backgrounds/1_compressed.jpg')}
+			>
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+			</Parallax>
+		</span>
+
+		<div class={style.content}>
+			<Cube />
+			<div class="container">
+				<div class="row justify-content-center py-5">
+					<div class="col-8">
+						<h1
+							class="h1 pb-3"
+						>Our services</h1>
 
 						<ul class={style.list}>
 							<li>

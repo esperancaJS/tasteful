@@ -12,6 +12,7 @@
         height: 100px;
         width: 100px;
         margin: 0;
+        left: 50%;
         animation: cube-fade-in 2s cubic-bezier(0.165, 0.84, 0.44, 1);
         will-change: transform;
 

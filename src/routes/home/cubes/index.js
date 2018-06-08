@@ -102,7 +102,7 @@ export default class Cubes extends Component {
             Object.assign(cube.style, {
                 width: `${size}px`,
                 height: `${size}px`,
-                left: `${left}px`,
+                [`margin-left`]: `${left}px`,
                 top: `${top}px`
             });
 
@@ -154,57 +154,57 @@ export default class Cubes extends Component {
             {
                 tint: palette.dark,
                 size: sizes.xs,
-                left: 35,
+                left: 335,
                 top: 465
             }, {
                 tint: palette.dark,
                 size: sizes.s,
-                left: 55,
+                left: 455,
                 top: 415
             }, {
                 tint: palette.dark,
                 size: sizes.xl,
-                left: 140,
-                top: 400
+                left: 440,
+                top: 600
             }, {
                 tint: palette.dark,
                 size: sizes.m,
-                left: 420,
+                left: -420,
                 top: 155
             }, {
                 tint: palette.dark,
                 size: sizes.xs,
-                left: 440,
+                left: -440,
                 top: 280
             }, {
                 tint: palette.dark,
                 size: sizes.s,
-                left: 480,
+                left: -480,
                 top: 228
             }, {
                 tint: palette.dark,
                 size: sizes.l,
-                left: 580,
-                top: 255
+                left: -580,
+                top: 555
             }, {
                 tint: palette.dark,
                 size: sizes.s,
-                left: 780,
+                left: 380,
                 top: 320
             }, {
                 tint: palette.dark,
                 size: sizes.xl,
-                left: 780,
-                top: 120
+                left: -670,
+                top: 320
             }, {
                 tint: palette.dark,
                 size: sizes.l,
-                left: 900,
+                left: -900,
                 top: 310
             }, {
                 tint: palette.dark,
                 size: sizes.m,
-                left: 1030,
+                left: 230,
                 top: 200
             }
         ].map(object => Object.assign(createCube(object.size), object));
