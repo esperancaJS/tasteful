@@ -5,9 +5,12 @@ import style from './style.scss';
 
 export default class Cube extends Component {
 
-    render() {
+    render({ right }) {
         return (
-            <div class={style.container}>
+            <div class={`
+                ${style.container}
+                ${right && style.right}
+            `}>
                 <div class={style.cube}>
                     <div class={style.facesTop}>
                         { new Array(10).fill().map(() => <div class={style.face}></div>)}

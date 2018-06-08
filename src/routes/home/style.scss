@@ -47,6 +47,47 @@
 		}
 	}
 
+	.slickElement {
+		padding: 30px;
+		color: white;
+		text-decoration: none;
+
+		&:hover {
+			h3 {
+				text-decoration: underline;
+			}
+		}
+
+		h3 {
+
+		}
+
+		p {
+
+		}
+
+		.pills {
+			display: flex;
+
+			.pill{
+				border-radius: 4px;
+				padding: 3px 7px;
+				margin-right: 7px;
+				white-space: nowrap;
+				font-size: 12px;
+				background-color: #32ABC1;
+
+				&.color1 {
+					background-color: #32ABC1;
+				}
+				&.color1 {
+					background-color: #14577D;
+				}
+			}
+		}
+
+	}
+
 }
 
 .link {
