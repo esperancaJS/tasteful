@@ -2,6 +2,7 @@ import { h } from 'preact';
 import style from './style.scss';
 import { Parallax, Background } from 'react-parallax';
 import Slider from "react-slick";
+import { Link } from 'preact-router/match';
 
 import Cube from './cube';
 import Cubes from './cubes';
@@ -105,25 +106,25 @@ const Home = () => (
 							slidesToShow: 3,
 							slidesToScroll: 3
 						}}>
-							<a href={``} class={style.slickElement}>
+							<Link href={`/workshop/wtv`} class={style.slickElement}>
 								<h3>Project Management</h3>
 								<p>Understanding developer biases, tracking progress, iterating, ... </p>
 								<div class={style.pills}>
 									<div class={style.pill}>for executives</div>
 								</div>
-							</a>
-							<a href={``} class={style.slickElement}>
+							</Link>
+							<Link href={`/workshop/wtv2`} class={style.slickElement}>
 								<h3>Understanding developers</h3>
 								<p>content</p>
 								<div class={style.pills}>
 									<div class={`${style.pill} ${style.color1}`}>for executives</div>
 									<div class={style.pill}>for developers</div>
 								</div>
-							</a>
-							<a href={``} class={style.slickElement}>
+							</Link>
+							<Link href={`/workshop/wtv3`} class={style.slickElement}>
 								<h3>Validating tech ideas</h3>
 								<p>content</p>
-							</a>
+							</Link>
 							<a href={``} class={style.slickElement}>
 								<h3>Scaleability</h3>
 								<p>How code, teams, products and tech debt work at scale</p>

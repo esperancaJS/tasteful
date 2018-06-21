@@ -1,5 +1,6 @@
 import { h, Component } from 'preact';
-import { Router } from 'preact-router';
+import { Router, route } from 'preact-router';
+import Match from 'preact-router/match';
 
 import Header from './header';
 import Home from '../routes/home';
@@ -12,23 +13,52 @@ if (module.hot) {
 }
 
 export default class App extends Component {
-	/** Gets fired when the route changes.
-	 *	@param {Object} event		"change" event from [preact-router](http://git.io/preact-router)
-	 *	@param {string} event.url	The newly routed URL
-	 */
+
+	constructor() {
+		super();
+		this.state = {
+			showModal : false
+		}
+	}
+
+	closeModal() {
+		route('/', true);
+	}
+
 	handleRoute = e => {
+		console.log(e.url);
 		this.currentUrl = e.url;
 	};
 
-	render() {
+	render({ showModal }) {
 		return (
 			<div id="app">
-				{/* <Header /> */}
-				<Router onChange={this.handleRoute}>
-					<Home path="/" />
-					<Profile path="/profile/" user="me" />
-					<Profile path="/profile/:user" />
-				</Router>
+				
+				<div
+					class={`
+						tasteful-modal-container
+						${showModal && 'visible'}
+					`}
+					onClick={this.closeModal}
+				>
+					<div class="tasteful-modal-container-inner">
+						<div class="tasteful-modal">
+							Modal Here
+
+							<Router onChange={this.handleRoute}>
+								<div path="/workshop/:workshop">
+									workshop
+								</div>
+								<div path="/services/:services">
+									services
+								</div>
+							</Router>
+						</div>
+					</div>
+				</div>
+
+				<Home/>
+
 			</div>
 		);
 	}

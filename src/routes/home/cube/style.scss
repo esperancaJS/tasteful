@@ -201,10 +201,10 @@ $rotation-duration: 1s;
   transform-style: preserve-3d;
 }
 
-*, *:before, *:after {
-  box-sizing: border-box;
-  position: relative;
-}
+// *, *:before, *:after {
+//   box-sizing: border-box;
+//   position: relative;
+// }
 
 .container {
   perspective: 9000rem;
