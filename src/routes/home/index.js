@@ -25,7 +25,7 @@ const Home = () => (
 						We help humans enjoy making high quality and infinitelly
 						scaleable software, as it's meant to be.
 					</h2>
-					<a class={style.link} href={``}>Book us!</a>
+					<Link class={style.link} href={`/book`}>Book us!</Link>
 				</div>
 			</div>
 		</Parallax>
