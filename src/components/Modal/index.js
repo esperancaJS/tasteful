@@ -6,6 +6,11 @@ import style from './style.scss';
 import Workshop1 from './Workshops/1';
 import Workshop2 from './Workshops/2';
 import Workshop3 from './Workshops/3';
+import Workshop4 from './Workshops/4';
+import Workshop5 from './Workshops/5';
+import Workshop6 from './Workshops/6';
+import Workshop7 from './Workshops/7';
+
 
 import Service1 from './Services/1';
 import Service2 from './Services/2';
@@ -21,15 +26,30 @@ import Contact3 from './Contacts/3';
 
 
 export default class Modal extends Component {
+
+	prevent = e => {
+		e.stopPropagation();
+	}
+
 	render() {
 		return (
 			<div class={style.tastefulModalContainerInner}>
-				<div class={style.tastefulModal}>
+				<div onClick={this.prevent} class={style.tastefulModal}>
 
 					<Router>
+						{/*
+							[ HACK ]
+							for preact-router to react to `route('/');`
+						*/}
+						<div path="/" />
+						
 						<Workshop1 path="/workshop/1" />
 						<Workshop2 path="/workshop/2" />
 						<Workshop3 path="/workshop/3" />
+						<Workshop4 path="/workshop/4" />
+						<Workshop5 path="/workshop/5" />
+						<Workshop6 path="/workshop/6" />
+						<Workshop7 path="/workshop/7" />
 
 						<Service1 path="/service/1" />
 						<Service2 path="/service/2" />

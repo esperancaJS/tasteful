@@ -2,12 +2,12 @@ export default () => (
 
     <span>
 
-        <h1>Simple highly scaleable FE starters</h1>
+        <h1>Project Management</h1>
 
         <br />
 
         <blockquote class="blockquote">
-            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <p class="mb-0">Understanding biases, tracking progress, planning for failure, making jargon a crime, etc.</p>
         </blockquote>
 
         <br />
@@ -38,8 +38,8 @@ export default () => (
             <dt class="col-sm-3">Audience</dt>
             <dd class="col-sm-9">
                 <div class="d-flex">
-                    <div class="pill">junior developers</div>
-                    <div class="pill">executives</div>
+                    <div class="pill color1">executives</div>
+                    <div class="pill">developers</div>
                 </div>
             </dd>
 
@@ -54,29 +54,9 @@ export default () => (
                 <dl class="row">
                     <dd class="col-sm-4">
                         <ul>
-                            <li>React</li>
-                            <li>React</li>
-                            <li>React</li>
-                            <li>React</li>
-                            <li>React</li>
-                        </ul>
-                    </dd>
-                    <dd class="col-sm-4">
-                        <ul>
-                            <li>React</li>
-                            <li>React</li>
-                            <li>React</li>
-                            <li>React</li>
-                            <li>React</li>
-                        </ul>
-                    </dd>
-                    <dd class="col-sm-4">
-                        <ul>
-                            <li>React</li>
-                            <li>React</li>
-                            <li>React</li>
-                            <li>React</li>
-                            <li>React</li>
+                            <li>Github</li>
+                            <li>Trello</li>
+                            <li><s>Jira</s></li>
                         </ul>
                     </dd>
                 </dl>

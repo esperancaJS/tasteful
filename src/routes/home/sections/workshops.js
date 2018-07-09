@@ -47,29 +47,29 @@ export default () => (
                         </Link>
                         <Link href={`/workshop/3`} class={style.slickElement}>
                             <h3>Future Ready FE that Scales</h3>
-                            <p>content content content content content content</p>
+                            <p>Lorem ipsum dolor sit amet, eos assum harum ullamcorper at. Malorum labitur mei te.</p>
                             <div class={style.pills}>
                                 {/* <div class={`${style.pill} ${style.color1}`}>for executives</div> */}
                                 <div class={style.pill}>for developers</div>
                             </div>
                         </Link>
 
-                        <Link href={`/workshop/3`} class={style.slickElement}>
+                        <Link href={`/workshop/4`} class={style.slickElement}>
                             <h3>Graphql</h3>
-                            <p>content content content content content content</p>
+                            <p>Lorem ipsum dolor sit amet, eos assum harum ullamcorper at. Malorum labitur mei te.</p>
                             <div class={style.pills}>
                                 {/* <div class={`${style.pill} ${style.color1}`}>for executives</div> */}
                                 <div class={style.pill}>for developers</div>
                             </div>
                         </Link>
-                        <Link href={`/workshop/3`} class={style.slickElement}>
+                        <Link href={`/workshop/5`} class={style.slickElement}>
                             <h3>FE State Management</h3>
                             <p>The most inuse or recent ways of managing FE State, what each is good for and not.</p>
                             <div class={style.pills}>
                                 <div class={style.pill}>for developers</div>
                             </div>
                         </Link>
-                        <Link href={`/workshop/3`} class={style.slickElement}>
+                        <Link href={`/workshop/6`} class={style.slickElement}>
                             <h3>FE Component Management</h3>
                             <p>React, Angular, Vue and Preact. What they have in common and in particular.</p>
                             <div class={style.pills}>
@@ -77,9 +77,9 @@ export default () => (
                             </div>
                         </Link>
                         
-                        <Link href={`/workshop/3`} class={style.slickElement}>
+                        <Link href={`/workshop/7`} class={style.slickElement}>
                             <h3>How to Git</h3>
-                            <p>The most inuse or recent ways of managing FE State, what each is good for and not.</p>
+                            <p>The most in-use or recent ways of managing FE State, what each is good for and not.</p>
                             <div class={style.pills}>
                                 <div class={style.pill}>for developers</div>
                             </div>

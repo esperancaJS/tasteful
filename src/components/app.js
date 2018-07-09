@@ -23,7 +23,7 @@ export default class App extends Component {
 	}
 
 	closeModal() {
-		route('/', true);
+		route('/');
 	}
 
 	handleRoute = e => {
