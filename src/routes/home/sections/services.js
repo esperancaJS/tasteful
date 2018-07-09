@@ -6,7 +6,9 @@ import Cube from '../shared/cube';
 
 export default () => (
     <div class={style.content}>
-        <Cube right />
+        <div class={style.cubeRightWrapper}>
+            <Cube right />
+        </div>
         <div class="container">
             <div class="row justify-content-center py-5">
                 <div class="col-8">
@@ -29,17 +31,17 @@ export default () => (
                             }
                           ]
                     }}>
-                        <Link href={`/service/1`} class={style.slickElement}>
-                            <h3>CTO on-demand</h3>
-                            <p>How code, teams, products and tech debt work at scale</p>
-                        </Link>
                         <Link href={`/service/2`} class={style.slickElement}>
                             <h3>Workflow Auditing</h3>
-                            <p>content</p>
+                            <p>Get actionable advice on how to effectively optimize your current workflow</p>
+                        </Link>
+                        <Link href={`/service/1`} class={style.slickElement}>
+                            <h3>CTO on-demand</h3>
+                            <p>Get an unbiased opinion from a Tech Veteran</p>
                         </Link>
                         <Link href={`/service/3`} class={style.slickElement}>
                             <h3>Code Auditing</h3>
-                            <p>content</p>
+                            <p>Get actionable advice on how to effectively improve your developer satisfaction</p>
                         </Link>
                     </Slider>
                 </div>

@@ -215,7 +215,13 @@ $rotation-duration: 1s;
 
   &.right {
     position: absolute;
-    right: 0;
+    right: 170px;
+    top: 500px;
+
+    .cube {
+      width: 0;
+      margin-left: 50px;
+    }
   }
 //   height: 100%;
 //   width: 100%;

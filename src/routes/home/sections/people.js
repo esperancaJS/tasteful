@@ -17,43 +17,56 @@ export default () => (
                         <li>
                             <h1 class="h4">Culture</h1>
                             <p class={`p ${style.p}`} >
-                                Perfectionists, dreamers, thorough, ...
-
+                                We are a collective of ambitious thinkers and doers, all ex-founders.
+                                <br />
+                                <br />
+                                What brings us toghether most of all is our desire to learn as fast and effectively as we can.
+                                <br />
+                                Which implies open mindedness, radical transparancy and an ever present eaguerness to know more.
                             </p>
                         </li>
 
                         <li>
                             <h1 class="h4">Humans</h1>
-                            {/* <p class={`p ${style.p}`} >
-                                Software development is an ever evolving landscape, however many best practices
-                                in architecture, work ethic, project development, etc, strenghten
-                                with every new technology and with ever obstacle. <br />
-                                As a team we help each other learn faster as well as deliver faster
-                                by being active learners and sharers.
-                            </p> */}
                             <ul class={style.list}>
                                 <li>
-                                    <Link href={`/people/1`}><h1 class="h4">Pedro Esperança</h1></Link>
-                                    <Link href={`/people/2`}><h1 class="h4">João Ribeiro</h1></Link>
-                                    <Link href={`/people/3`}><h1 class="h4">Rui Vilela</h1></Link>
+                                    <Link
+                                        class={style.link}
+                                        href={`https://www.linkedin.com/in/esperancajs/`}
+                                    >Pedro Esperança</Link>
+                                    <p>Created 4 startups, sold 1 and worked with another 4 startups and 2 software houses.</p>
+                                </li>
+                                <li>
+                                    <Link
+                                        class={style.link}
+                                        href={`https://github.com/JonnyBGod`}    
+                                    >João Ribeiro</Link>
+                                    <p>Maintainer and contributer of many open source repositories and organizations.</p>
+                                </li>
+                                <li>
+                                    <Link
+                                        class={style.link}
+                                        href={`https://www.linkedin.com/in/ruivilela/`}
+                                    >Rui Vilela</Link>
+                                    <p>Basterd.</p>
+                                </li>
+                                <li>
+                                    <Link
+                                        class={style.link}
+                                        href={`https://www.linkedin.com/in/alexanderkustov/`}
+                                    >Alexander Kustov</Link>
+                                    <p>Created many startups, colaborated for many others as well as many big companies such as Oxford Dictionaries.</p>
                                 </li>
                             </ul>
                         </li>
                     </ul>
 
-                    <ul class={style.list}>
-                        <li>
-                            <Link href={`/people/1`}><h1 class="h4">Pedro Esperança</h1></Link>
-                            <Link href={`/people/2`}><h1 class="h4">João Ribeiro</h1></Link>
-                            <Link href={`/people/3`}><h1 class="h4">Rui Vilela</h1></Link>
-                        </li>
-                    </ul>
+                    {/* <br />
+                    
 
-                    <Link href={`/contact/2`}>
-                        <h1
-                            class="h1 pb-3"
-                        >Join us?</h1>
-                    </Link>
+                    <Link class={style.link} href={`/contact/2`}>
+                        Join us?
+                    </Link> */}
 
                 </div>
             </div>
