@@ -27,42 +27,64 @@ import Contact3 from './Contacts/3';
 
 export default class Modal extends Component {
 
+	constructor() {
+		super();
+		this.state = {
+			showModal: false
+		}
+	}
+
+	closeModal() {
+		route('/');
+	}
+
+	handleRoute = e => {
+		console.log(e.url, e.url !== '/');
+		this.currentUrl = e.url;
+		this.setState({ showModal: e.url !== '/' })
+	};
+
 	prevent = e => {
 		e.stopPropagation();
 	}
 
-	render() {
+	render({}, {showModal}) {
 		return (
-			<div class={style.tastefulModalContainerInner}>
-				<div onClick={this.prevent} class={style.tastefulModal}>
+			<div
+				class={`tasteful-modal-container ${showModal && 'visible'}`}
+				onClick={this.closeModal}
+			>
+				<div class={style.tastefulModalContainerInner}>
+					<div onClick={this.prevent} class={style.tastefulModal}>
 
-					<Router>
-						{/*
-							[ HACK ]
-							for preact-router to react to `route('/');`
-						*/}
-						<div path="/" />
-						
-						<Workshop1 path="/workshop/1" />
-						<Workshop2 path="/workshop/2" />
-						<Workshop3 path="/workshop/3" />
-						<Workshop4 path="/workshop/4" />
-						<Workshop5 path="/workshop/5" />
-						<Workshop6 path="/workshop/6" />
-						<Workshop7 path="/workshop/7" />
+						<Router onChange={this.handleRoute}>
+							{/*
+								[ HACK ]
+								for preact-router to react to `route('/');`
+							*/}
+							<div path="/" />
 
-						<Service1 path="/service/1" />
-						<Service2 path="/service/2" />
-						<Service3 path="/service/3" />
+							<Workshop1 path="/workshop/1" />
+							<Workshop2 path="/workshop/2" />
+							<Workshop3 path="/workshop/3" />
+							<Workshop4 path="/workshop/4" />
+							<Workshop5 path="/workshop/5" />
+							<Workshop6 path="/workshop/6" />
+							<Workshop7 path="/workshop/7" />
 
-						<People1 path="/people/1" />
-						<People2 path="/people/2" />
-						<People3 path="/people/3" />
+							<Service1 path="/service/1" />
+							<Service2 path="/service/2" />
+							<Service3 path="/service/3" />
 
-						<Contact1 path="/contact/1" />
-						<Contact2 path="/contact/2" />
-						<Contact3 path="/contact/3" />
-					</Router>
+							<People1 path="/people/1" />
+							<People2 path="/people/2" />
+							<People3 path="/people/3" />
+
+							<Contact1 path="/contact/1" />
+							<Contact2 path="/contact/2" />
+							<Contact3 path="/contact/3" />
+						</Router>
+					</div>
 				</div>
 			</div>
 		);

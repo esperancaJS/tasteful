@@ -30,31 +30,35 @@ export default () => (
                             <h1 class="h4">Humans</h1>
                             <ul class={style.list}>
                                 <li>
-                                    <Link
+                                    <a
                                         class={style.link}
+                                        target={`_blank`}
                                         href={`https://www.linkedin.com/in/esperancajs/`}
-                                    >Pedro Esperança</Link>
+                                    >Pedro Esperança</a>
                                     <p>Created 4 startups, sold 1 and worked with another 4 startups and 2 software houses.</p>
                                 </li>
                                 <li>
-                                    <Link
+                                    <a
                                         class={style.link}
+                                        target={`_blank`}
                                         href={`https://github.com/JonnyBGod`}    
-                                    >João Ribeiro</Link>
+                                    >João Ribeiro</a>
                                     <p>Maintainer and contributer of many open source repositories and organizations.</p>
                                 </li>
                                 <li>
-                                    <Link
+                                    <a
                                         class={style.link}
+                                        target={`_blank`}
                                         href={`https://www.linkedin.com/in/ruivilela/`}
-                                    >Rui Vilela</Link>
+                                    >Rui Vilela</a>
                                     <p>Basterd.</p>
                                 </li>
                                 <li>
-                                    <Link
+                                    <a
                                         class={style.link}
+                                        target={`_blank`}
                                         href={`https://www.linkedin.com/in/alexanderkustov/`}
-                                    >Alexander Kustov</Link>
+                                    >Alexander Kustov</a>
                                     <p>Created many startups, colaborated for many others as well as many big companies such as Oxford Dictionaries.</p>
                                 </li>
                             </ul>
