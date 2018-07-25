@@ -2,7 +2,7 @@ export default () => (
 
     <span>
 
-        <h1>Understanding developers</h1>
+        <h1>Code your own Landing Pages</h1>
 
         <br />
 

@@ -7,6 +7,9 @@ import WorkshopsSection from './sections/workshops';
 import ServicesSection from './sections/services';
 import PeopleSection from './sections/people';
 import ParallaxDivider from './sections/paralaxDivider';
+import Tech from './sections/tech';
+import Location from './sections/location';
+import Clients from './sections/clients';
 
 const Home = () => (
 	<span>
@@ -18,17 +21,25 @@ const Home = () => (
 
 		<WhyUsSection />
 
-		<ParallaxDivider />
+		<ParallaxDivider /> {/* Divider */}
 
 		<WorkshopsSection />
 
-		<ParallaxDivider />
+		<ParallaxDivider /> {/* Divider */}
 
 		<ServicesSection />
 
-		<ParallaxDivider />
+		<ParallaxDivider /> {/* Divider */}
 
 		<PeopleSection />
+
+		<ParallaxDivider /> {/* Divider */}
+
+		<Tech />
+
+		<ParallaxDivider /> {/* Divider */}
+
+		<Location />
 
 	</span>
 );

@@ -2,7 +2,7 @@ export default () => (
 
     <span>
 
-        <h1>Future Ready FE that Scales</h1>
+        <h1>Code-Less Backends</h1>
 
         <br />
 

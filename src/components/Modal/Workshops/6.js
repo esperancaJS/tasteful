@@ -2,7 +2,7 @@ export default () => (
 
     <span>
 
-        <h1>FE Component Management</h1>
+        <h1>Understanding developers</h1>
 
         <br />
 

@@ -1,5 +1,3 @@
-import { Link } from 'preact-router/match';
-
 import style from '../style.scss';
 import Cubes from '../shared/cubes';
 
@@ -32,10 +30,14 @@ export default () => (
                     >Our Approach</h1>
 
                     <p>
-                        The most effective and less boring way to learn anything is to start by acquiring the 20% of the information with which 80% of the work can be done.
+                        The most effective and less boring way to learn anything is
+                        to start by acquiring the 20% of the information with which
+                        80% of the work can be done.
                         <br />
                         <br />
-                        This is what we start with on our workshops, and what we make sure everyone participating understands by putting it into practice, another key practice for effective learning.
+                        This is what we start with on our workshops, and what we make
+                        sure everyone participating understands by putting it into practice,
+                        another key practice for effective learning.
                     </p>
 
                     <br />

@@ -2,7 +2,7 @@ export default () => (
 
     <span>
 
-        <h1>How to Git</h1>
+        <h1>Splunk done right</h1>
 
         <br />
 

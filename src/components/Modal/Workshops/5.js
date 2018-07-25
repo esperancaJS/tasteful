@@ -2,7 +2,7 @@ export default () => (
 
     <span>
 
-        <h1>FE State Management</h1>
+        <h1>How to Git</h1>
 
         <br />
 

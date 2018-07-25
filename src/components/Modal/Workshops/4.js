@@ -2,7 +2,7 @@ export default () => (
 
     <span>
 
-        <h1>Graphql</h1>
+        <h1>CI/CD for FE Developers</h1>
 
         <br />
 

@@ -30,56 +30,60 @@ export default () => (
                           ]
                     }}>
                         <Link href={`/workshop/1`} class={style.slickElement}>
-                            <h3>Project Management</h3>
-                            <p>Understanding biases, tracking progress, planning for failure, making jargon a crime, etc.</p>
+                            <h3>Front End Architecture</h3>
+                            <p>React, Angular, Redux, Graphql, Webpack - What you really need to know.</p>
                             <div class={style.pills}>
-                                <div class={`${style.pill} ${style.color1}`}>for executives</div>
+                                {/* <div class={`${style.pill} ${style.color1}`}>for executives</div> */}
                                 <div class={style.pill}>for developers</div>
                             </div>
                         </Link>
                         <Link href={`/workshop/2`} class={style.slickElement}>
-                            <h3>Understanding developers</h3>
-                            <p>Types of developers, Spectrum of yes and no, Optimizing productivity, etc. </p>
+                            <h3>Code your own Landing Pages</h3>
+                            <p>[ Alex Please Help ! ]</p>
                             <div class={style.pills}>
-                                <div class={`${style.pill} ${style.color1}`}>for executives</div>
-                                <div class={style.pill}>for developers</div>
+                                <div class={`${style.pill} ${style.color1}`}>for marketers</div>
                             </div>
                         </Link>
                         <Link href={`/workshop/3`} class={style.slickElement}>
-                            <h3>Future Ready FE that Scales</h3>
-                            <p>Lorem ipsum dolor sit amet, eos assum harum ullamcorper at. Malorum labitur mei te.</p>
+                            <h3>Code-Less Backends</h3>
+                            <p>[ João Ribeiro Please Help ! ]</p>
                             <div class={style.pills}>
-                                {/* <div class={`${style.pill} ${style.color1}`}>for executives</div> */}
                                 <div class={style.pill}>for developers</div>
                             </div>
                         </Link>
-
                         <Link href={`/workshop/4`} class={style.slickElement}>
-                            <h3>Graphql</h3>
-                            <p>Lorem ipsum dolor sit amet, eos assum harum ullamcorper at. Malorum labitur mei te.</p>
+                            <h3>CI/CD for FE Developers</h3>
+                            <p>[ João Ribeiro Please Help ! ]</p>
                             <div class={style.pills}>
-                                {/* <div class={`${style.pill} ${style.color1}`}>for executives</div> */}
                                 <div class={style.pill}>for developers</div>
                             </div>
                         </Link>
                         <Link href={`/workshop/5`} class={style.slickElement}>
-                            <h3>FE State Management</h3>
-                            <p>The most inuse or recent ways of managing FE State, what each is good for and not.</p>
+                            <h3>How to Git</h3>
+                            <p>[ Rui Please Help ! ]</p>
                             <div class={style.pills}>
                                 <div class={style.pill}>for developers</div>
                             </div>
                         </Link>
                         <Link href={`/workshop/6`} class={style.slickElement}>
-                            <h3>FE Component Management</h3>
-                            <p>React, Angular, Vue and Preact. What they have in common and in particular.</p>
+                            <h3>Understanding developers</h3>
+                            <p>Types of developers, Spectrum of yes and no, Optimizing productivity, etc. </p>
                             <div class={style.pills}>
+                                <div class={`${style.pill} ${style.color1}`}>for executives</div>
+                                {/* <div class={style.pill}>for developers</div> */}
+                            </div>
+                        </Link>
+                        <Link href={`/workshop/7`} class={style.slickElement}>
+                            <h3>Splunk done right</h3>
+                            <p>[ João Figueiredo please help! ]</p>
+                            <div class={style.pills}>
+                                <div class={`${style.pill} ${style.color1}`}>for executives</div>
                                 <div class={style.pill}>for developers</div>
                             </div>
                         </Link>
-                        
-                        <Link href={`/workshop/7`} class={style.slickElement}>
-                            <h3>How to Git</h3>
-                            <p>The most in-use or recent ways of managing FE State, what each is good for and not.</p>
+                        <Link href={`/workshop/8`} class={style.slickElement}>
+                            <h3>Ultimate React</h3>
+                            <p>[ Pedro please help! ]</p>
                             <div class={style.pills}>
                                 <div class={style.pill}>for developers</div>
                             </div>

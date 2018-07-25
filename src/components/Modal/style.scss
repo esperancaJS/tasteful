@@ -22,9 +22,9 @@
 
 		@include media-breakpoint-down(sm) {
 			// background: purple;
-			left: 25px;
-			width: calc(100% - 70px);
-
+			left: 20px;
+			width: calc(100% - 40px);
+			padding: 20px;
 		}
 		
 		iframe {

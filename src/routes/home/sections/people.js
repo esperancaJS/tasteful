@@ -1,7 +1,4 @@
-import { Link } from 'preact-router/match';
-
 import style from '../style.scss';
-import Logo from '../shared/logo';
 
 export default () => (
     <div class={style.content}>
@@ -13,21 +10,21 @@ export default () => (
                         class="h1 pb-3"
                     >Who are we?</h1>
 
-                    <ul class={style.list}>
-                        <li>
-                            <h1 class="h4">Culture</h1>
-                            <p class={`p ${style.p}`} >
-                                We are a collective of ambitious thinkers and doers, all ex-founders.
-                                <br />
-                                <br />
-                                What brings us toghether most of all is our desire to learn as fast and effectively as we can.
-                                <br />
-                                Which implies open mindedness, radical transparancy and an ever present eaguerness to know more.
-                            </p>
-                        </li>
+                    <h1 class="h4">Culture</h1>
+                    <p class={`p ${style.p}`} >
+                        We are a collective of ambitious thinkers and doers, all ex-founders.
+                        <br />
+                        <br />
+                        What brings us toghether most of all is our desire to learn as fast and effectively as we can.
+                        <br />
+                        Which implies open mindedness, radical transparancy and an ever present eaguerness to know more.
+                    </p>
 
-                        <li>
-                            <h1 class="h4">Humans</h1>
+                    <h1 class="h4">Humans</h1>
+
+                    <div class="row">
+                        <div class="col-6">
+
                             <ul class={style.list}>
                                 <li>
                                     <a
@@ -51,20 +48,39 @@ export default () => (
                                         target={`_blank`}
                                         href={`https://www.linkedin.com/in/ruivilela/`}
                                     >Rui Vilela</a>
-                                    <p>Basterd.</p>
+                                    <p>Business strategy focused entrepreneur surrendered to the simplicity of good code.</p>
                                 </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class={style.list}>
                                 <li>
                                     <a
                                         class={style.link}
                                         target={`_blank`}
                                         href={`https://www.linkedin.com/in/alexanderkustov/`}
                                     >Alexander Kustov</a>
-                                    <p>Created many startups, colaborated for many others as well as many big companies such as Oxford Dictionaries.</p>
+                                    <p>Bootstrapped many startups, colaborated for many others as well as many big companies such as Oxford Dictionaries.</p>
+                                </li>
+                                <li>
+                                    <a
+                                        class={style.link}
+                                        target={`_blank`}
+                                        href={`https://www.linkedin.com/in/pedrombafonso/`}
+                                    >Pedro Afonso</a>
+                                    <p>Passionate Developer, with a special focus for the React and GraphQl world</p>
+                                </li>
+                                <li>
+                                    <a
+                                        class={style.link}
+                                        target={`_blank`}
+                                        href={`https://www.linkedin.com/in/joaopfigueiredo/`}
+                                    >João Figueiredo</a>
+                                    <p>Seasoned Splunk Architect.</p>
                                 </li>
                             </ul>
-                        </li>
-                    </ul>
-
+                        </div>
+                    </div>
                     {/* <br />
                     
 

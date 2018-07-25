@@ -2,12 +2,12 @@ export default () => (
 
     <span>
 
-        <h1>Front End Architecture</h1>
+        <h1>Ultimate React</h1>
 
         <br />
 
         <blockquote class="blockquote">
-            <p class="mb-0">Understanding biases, tracking progress, planning for failure, making jargon a crime, etc.</p>
+            <p class="mb-0">Lorem ipsum dolor sit amet, eos assum harum ullamcorper at. Malorum labitur mei te.</p>
         </blockquote>
 
         <br />
