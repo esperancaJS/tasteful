@@ -35,10 +35,6 @@ const Home = () => (
 
 		<ParallaxDivider /> {/* Divider */}
 
-		<Tech />
-
-		<ParallaxDivider /> {/* Divider */}
-
 		<Location />
 
 	</span>

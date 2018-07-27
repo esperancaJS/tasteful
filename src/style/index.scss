@@ -59,3 +59,9 @@ html, body {
     margin: 0 -23px;
     width: 101% !important;
 }
+
+ul {
+	&.less-padding {
+		padding-left: 20px;
+	}
+}

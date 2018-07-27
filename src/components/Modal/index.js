@@ -64,7 +64,7 @@ export default class Modal extends Component {
 							*/}
 							<div path="/" />
 
-							<Workshop1 path="/workshop/1" />
+							<Workshop1 path="/workshop/front-end-architecture" />
 							<Workshop2 path="/workshop/2" />
 							<Workshop3 path="/workshop/3" />
 							<Workshop4 path="/workshop/4" />

@@ -17,8 +17,8 @@ export default () => (
                     <Slider {...{
                         infinite: true,
                         speed: 500,
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
                         responsive: [
                             {
                               breakpoint: 1000,
@@ -29,7 +29,7 @@ export default () => (
                             }
                           ]
                     }}>
-                        <Link href={`/workshop/1`} class={style.slickElement}>
+                        <Link href={`/workshop/front-end-architecture`} class={style.slickElement}>
                             <h3>Front End Architecture</h3>
                             <p>React, Angular, Redux, Graphql, Webpack - What you really need to know.</p>
                             <div class={style.pills}>
@@ -37,7 +37,7 @@ export default () => (
                                 <div class={style.pill}>for developers</div>
                             </div>
                         </Link>
-                        <Link href={`/workshop/2`} class={style.slickElement}>
+                        {/* <Link href={`/workshop/2`} class={style.slickElement}>
                             <h3>Code your own Landing Pages</h3>
                             <p>[ Alex Please Help ! ]</p>
                             <div class={style.pills}>
@@ -64,7 +64,7 @@ export default () => (
                             <div class={style.pills}>
                                 <div class={style.pill}>for developers</div>
                             </div>
-                        </Link>
+                        </Link> */}
                         <Link href={`/workshop/6`} class={style.slickElement}>
                             <h3>Understanding developers</h3>
                             <p>Types of developers, Spectrum of yes and no, Optimizing productivity, etc. </p>
@@ -73,7 +73,7 @@ export default () => (
                                 {/* <div class={style.pill}>for developers</div> */}
                             </div>
                         </Link>
-                        <Link href={`/workshop/7`} class={style.slickElement}>
+                        {/* <Link href={`/workshop/7`} class={style.slickElement}>
                             <h3>Splunk done right</h3>
                             <p>[ João Figueiredo please help! ]</p>
                             <div class={style.pills}>
@@ -87,7 +87,7 @@ export default () => (
                             <div class={style.pills}>
                                 <div class={style.pill}>for developers</div>
                             </div>
-                        </Link>
+                        </Link> */}
                     </Slider>
                 </div>
             </div>
