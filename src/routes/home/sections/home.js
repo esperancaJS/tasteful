@@ -13,7 +13,7 @@ export default () => (
             <h2
                 class={`p ${style.p}`}
             >
-                We help humans enjoy making high quality and infinitelly
+                We teach humans to enjoy making high quality and infinitelly
                 scaleable software, as it's meant to be.
             </h2>
             <Link class={style.link} href={`/contact/1`}>Book us!</Link>

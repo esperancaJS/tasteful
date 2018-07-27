@@ -7,7 +7,9 @@ export default () => (
         <br />
 
         <blockquote class="blockquote">
-            <p class="mb-0">Understanding biases, tracking progress, planning for failure, making jargon a crime, etc.</p>
+            <p class="mb-0">
+                Front End Architecture impacts developer hapyness, productivity and the end result in a significant way.
+            </p>
         </blockquote>
 
         <br />
@@ -15,8 +17,11 @@ export default () => (
         <dl class="row">
             <dt class="col-sm-3">Motivation</dt>
             <dd class="col-sm-9">
-                <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
-                <p>Donec id elit non mi porta gravida at eget metus.</p>
+                <p>
+                    Getting Front End Architecture right is one of the most confusing problems for web developers.
+                    The reason being that there are a wide variety of ways to do it, seemingly contradictory due
+                    to strong fanatism amoung developers.
+                </p>
             </dd>
         </dl>
 
@@ -38,7 +43,6 @@ export default () => (
             <dt class="col-sm-3">Audience</dt>
             <dd class="col-sm-9">
                 <div class="d-flex">
-                    <div class="pill color1">executives</div>
                     <div class="pill">developers</div>
                 </div>
             </dd>
@@ -54,9 +58,9 @@ export default () => (
                 <dl class="row">
                     <dd class="col-sm-4">
                         <ul>
-                            <li>Github</li>
-                            <li>Trello</li>
-                            <li><s>Jira</s></li>
+                            <li>React</li>
+                            <li>Angular</li>
+                            <li>Redux</li>
                         </ul>
                     </dd>
                 </dl>
