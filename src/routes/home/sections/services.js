@@ -5,7 +5,7 @@ import style from '../style.scss';
 import Cube from '../shared/cube';
 
 export default () => (
-    <div class={style.content}>
+    <div class={style.content} id={`services`}>
         <div class={style.cubeRightWrapper}>
             <Cube right />
         </div>

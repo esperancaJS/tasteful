@@ -39,7 +39,12 @@ export default class Modal extends Component {
 	}
 
 	handleRoute = e => {
-		console.log(e.url, e.url !== '/');
+		
+		if (typeof window.ga === 'function') {
+			window.ga('set', 'page', e.url);
+			window.ga('send', 'pageview');
+		}
+
 		this.currentUrl = e.url;
 		this.setState({ showModal: e.url !== '/' })
 	};
@@ -65,6 +70,7 @@ export default class Modal extends Component {
 							<div path="/" />
 
 							<Workshop1 path="/workshop/front-end-architecture" />
+							<Contact1 path="/workshop/front-end-architecture/book" />
 							<Workshop2 path="/workshop/2" />
 							<Workshop3 path="/workshop/3" />
 							<Workshop4 path="/workshop/4" />
@@ -80,7 +86,7 @@ export default class Modal extends Component {
 							<People2 path="/people/2" />
 							<People3 path="/people/3" />
 
-							<Contact1 path="/contact/1" />
+							{/* <Contact1 path="/contact/1" /> */}
 							<Contact2 path="/contact/2" />
 							<Contact3 path="/contact/3" />
 						</Router>

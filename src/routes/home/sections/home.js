@@ -16,7 +16,11 @@ export default () => (
                 We teach humans to enjoy making high quality and infinitelly
                 scaleable software, as it's meant to be.
             </h2>
-            <Link class={style.link} href={`/contact/1`}>Book us!</Link>
+            <div>
+                <a class={style.link} href={`#workshops`}>Book a workshop!</a>
+                <span style={{padding: `0 10px`}}>|</span>
+                <a class={style.link} href={`#services`}>Request a service!</a>
+            </div>
         </div>
     </div>
 )

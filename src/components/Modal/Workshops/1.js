@@ -1,3 +1,5 @@
+import { Link } from 'preact-router/match';
+
 export default () => (
 
     <span>
@@ -18,7 +20,9 @@ export default () => (
 
         <dl class="row">
             <dd class="col-sm-12 text-center">
-                <button class={`btn`}>Book us!</button>
+                <Link href={`/workshop/front-end-architecture/book`}>
+                    <button class={`btn`}>Book us!</button>
+                </Link>
             </dd>
         </dl>
 
@@ -118,9 +122,7 @@ export default () => (
 
             <dt class="col-sm-2">Audience</dt>
             <dd class="col-sm-10">
-                <div class="d-flex">
-                    <div class="pill">developers</div>
-                </div>
+                Young developers about to embark on a journey to build great Front End projects that are easy to work with and scale.
             </dd>
 
         </dl>
@@ -202,7 +204,9 @@ export default () => (
 
         <dl class="row">
             <dd class="col-sm-12 text-center">
-                <button class={`btn`}>Book us!</button>
+                <Link href={`/workshop/front-end-architecture/book`}>
+                    <button class={`btn`}>Book us!</button>
+                </Link>
             </dd>
         </dl>
 
