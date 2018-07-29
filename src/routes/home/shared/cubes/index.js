@@ -306,7 +306,7 @@ export default class Cubes extends Component {
         const container = document.createElement("div");
         container.className = "cubes";
         cubes.map(({ fragment }) => container.appendChild(fragment));
-        console.log('cubes', cubes);
+        // console.log('cubes', cubes);
 
         // start
         tick();
