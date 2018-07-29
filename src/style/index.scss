@@ -65,3 +65,19 @@ ul {
 		padding-left: 20px;
 	}
 }
+
+// paralax pre-load fix
+.react-parallax {
+    position: relative;
+	overflow: hidden;
+	
+	img {
+		position: absolute;
+		left: 50%;
+		transform: translate3d(-50%, 0px, 0px);
+		transform-style: preserve-3d;
+		backface-visibility: hidden;
+		height: 904px;
+		width: auto;
+	}
+}
