@@ -1,6 +1,5 @@
 import { h, Component } from 'preact';
 import { Router, route } from 'preact-router';
-import { Link } from 'preact-router/match';
 import style from './style.scss';
 
 import Workshop1 from './Workshops/1';
@@ -40,7 +39,7 @@ export default class Modal extends Component {
 
 	handleRoute = e => {
 		
-		if (typeof window.ga === 'function') {
+		if (typeof window !=='undefined' && typeof window.ga === 'function') {
 			window.ga('set', 'page', e.url);
 			window.ga('send', 'pageview');
 		}
@@ -78,9 +77,9 @@ export default class Modal extends Component {
 							<Workshop6 path="/workshop/6" />
 							<Workshop7 path="/workshop/7" />
 
-							<Service1 path="/service/1" />
-							<Service2 path="/service/2" />
-							<Service3 path="/service/3" />
+							<Service1 path="/service/workflow-auditing" />
+							<Service2 path="/service/cto-on-demand" />
+							<Service3 path="/service/code-auditing" />
 
 							<People1 path="/people/1" />
 							<People2 path="/people/2" />

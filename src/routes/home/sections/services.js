@@ -31,15 +31,15 @@ export default () => (
                             }
                           ]
                     }}>
-                        <Link href={`/service/1`} class={style.slickElement}>
+                        <Link href={`/service/workflow-auditing`} class={style.slickElement}>
                             <h3>Workflow Auditing</h3>
                             <p>Get actionable advice on how to effectively optimize your current workflow</p>
                         </Link>
-                        <Link href={`/service/2`} class={style.slickElement}>
+                        <Link href={`/service/cto-on-demand`} class={style.slickElement}>
                             <h3>CTO on-demand</h3>
                             <p>Get an unbiased opinion from a Tech Veteran</p>
                         </Link>
-                        <Link href={`/service/3`} class={style.slickElement}>
+                        <Link href={`/service/code-auditing`} class={style.slickElement}>
                             <h3>Code Auditing</h3>
                             <p>Get actionable advice on how to effectively improve your developer satisfaction</p>
                         </Link>
