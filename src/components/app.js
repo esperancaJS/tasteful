@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import { Router, route } from 'preact-router';
+import Helmet from 'preact-helmet';
 
 import Modal from './Modal';
 import Home from '../routes/home';
@@ -17,8 +17,30 @@ export default class App extends Component {
 
 	render() {
 		return (
-			<div id="app">
+			<div id='app'>
 
+				<Helmet
+					title='the 20% you need'
+					titleTemplate='Tasteful - %s'
+					meta={[
+						{
+							name: 'description',
+							content: `
+								We teach humans to enjoy making high quality and
+								infinitely scalable software,
+								as it's meant to be.
+							`
+						}, {
+							name: 'og:image',
+							content: '/assets/logos/tasteful-2@300px.png'
+						}
+					]}
+				/>
+
+				{/*
+					[ HACK ]
+					Router is in the Modal
+				*/}
 				<Modal />
 
 				<Home/>

@@ -1,8 +1,23 @@
 import { Link } from 'preact-router/match';
+import Helmet from "preact-helmet";
 
 export default () => (
 
     <span>
+
+        <Helmet
+            title="Front End Architecture Workshop"
+            meta={[
+                {
+                    name: "description",
+                    content: `
+                        Front End Architecture impacts developer happiness, productivity and quality.
+                        Getting it right means a code base that is enjoyable to work with and easy to improve upon.
+                    `
+                },
+                {property: "og:type", content: "article"}
+            ]}
+        />
 
         <h1>Front End Architecture</h1>
 
@@ -10,7 +25,7 @@ export default () => (
 
         <blockquote class="blockquote">
             <p class="mb-0">
-                Front End Architecture impacts developer hapyness, productivity and quality.
+                Front End Architecture impacts developer happiness, productivity and quality.
                 <br /><br />
                 Getting it right means a code base that is enjoyable to work with and easy to improve upon.
             </p>

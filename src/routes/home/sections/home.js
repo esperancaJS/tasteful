@@ -13,8 +13,8 @@ export default () => (
             <h2
                 class={`p ${style.p}`}
             >
-                We teach humans to enjoy making high quality and infinitelly
-                scaleable software, as it's meant to be.
+                We teach humans to enjoy making high quality and infinitely
+                scalable software, as it's meant to be.
             </h2>
             <div>
                 <a class={style.link} href={`#workshops`}>Book a workshop!</a>

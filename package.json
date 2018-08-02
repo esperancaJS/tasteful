@@ -18,6 +18,7 @@
     "build/*"
   ],
   "devDependencies": {
+    "copy-webpack-plugin": "^4.5.2",
     "eslint": "^4.19.1",
     "eslint-config-synacor": "^2.0.2",
     "identity-obj-proxy": "^3.0.0",
@@ -33,6 +34,7 @@
     "bootstrap": "^4.1.1",
     "preact": "^8.2.9",
     "preact-compat": "^3.17.0",
+    "preact-helmet": "^4.0.0-alpha-3",
     "preact-router": "^2.6.1",
     "react-parallax": "^1.7.0",
     "slick-carousel": "^1.8.1"
