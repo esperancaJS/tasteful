@@ -49,7 +49,7 @@ export default () => (
                 <p>
                     Building Front End Architectures that scale is one of the most confusing problems for web developers.
                     The reason being that there are a wide variety of contradictory ways to do it. Due
-                    to strong fanatism amoung developers, specially in available online resources.
+                    to strong fanaticism among developers, specially in available online resources.
                 </p>
                 <p>
                     However once developers are shown opinionated ways of architecting projects they can visualize what are the problems that are important to leverage and how to best pick and use the latest availble technologies, continuously.

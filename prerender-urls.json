@@ -1,5 +1,9 @@
 [{
     "url": "/"
   }, {
+    "meta": {
+      "title": "Front End Architecture Workshop",
+      "description": "Front End Architecture impacts developer happiness, productivity and quality. Getting it right means a code base that is enjoyable to work with and easy to improve upon."
+    },
     "url": "/workshop/front-end-architecture"
   }]

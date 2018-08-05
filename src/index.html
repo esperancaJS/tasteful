@@ -2,7 +2,11 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Tasteful</title>
+		<% if (htmlWebpackPlugin.options.meta) { %>
+			<title>Tasteful - <%= htmlWebpackPlugin.options.meta.title %></title>
+			<meta name="og:image" content="/assets/logos/tasteful-2@300px.png">
+			<meta name="description" content="<%= htmlWebpackPlugin.options.meta.description %>">
+		<% } %>
 		<meta name="image" content="/assets/logos/tasteful-2@300px.png">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta name="mobile-web-app-capable" content="yes">
