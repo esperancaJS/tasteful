@@ -31,7 +31,7 @@ export default () => (
                     }}>
                         <Link href={`/workshop/front-end-architecture`} class={style.slickElement}>
                             <h3>Front End Architecture</h3>
-                            <p>React, Angular, Redux, Graphql, Webpack - What you really need to know.</p>
+                            <p>React, Angular, Redux, Webpack - What you really need to know.</p>
                             <div class={style.pills}>
                                 {/* <div class={`${style.pill} ${style.color1}`}>for executives</div> */}
                                 <div class={style.pill}>for developers</div>

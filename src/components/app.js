@@ -30,9 +30,6 @@ export default class App extends Component {
 								infinitely scalable software,
 								as it's meant to be.
 							`
-						}, {
-							name: 'og:image',
-							content: '/assets/logos/tasteful-2@300px.png'
 						}
 					]}
 				/>

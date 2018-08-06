@@ -14,8 +14,7 @@ export default () => (
                         Front End Architecture impacts developer happiness, productivity and quality.
                         Getting it right means a code base that is enjoyable to work with and easy to improve upon.
                     `
-                },
-                {property: "og:type", content: "article"}
+                }
             ]}
         />
 

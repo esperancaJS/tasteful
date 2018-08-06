@@ -1,9 +1,13 @@
 [{
-    "url": "/"
-  }, {
-    "meta": {
-      "title": "Front End Architecture Workshop",
-      "description": "Front End Architecture impacts developer happiness, productivity and quality. Getting it right means a code base that is enjoyable to work with and easy to improve upon."
-    },
-    "url": "/workshop/front-end-architecture"
-  }]
+  "url": "/",
+  "meta": {
+    "title": "the 20% you need",
+    "description": "We teach humans to enjoy making high quality and infinitely scalable software, as it's meant to be."
+  }
+}, {
+  "url": "/workshop/front-end-architecture",
+  "meta": {
+    "title": "Front End Architecture Workshop",
+    "description": "Front End Architecture impacts developer happiness, productivity and quality. Getting it right means a code base that is enjoyable to work with and easy to improve upon."
+  }
+}]
