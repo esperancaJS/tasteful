@@ -58,6 +58,7 @@ export default class Modal extends Component {
 				class={`tasteful-modal-container ${showModal && 'visible'}`}
 				onClick={this.closeModal}
 			>
+				<div class={style.modalBack}></div>
 				<div class={style.tastefulModalContainerInner}>
 					<div onClick={this.prevent} class={style.tastefulModal}>
 

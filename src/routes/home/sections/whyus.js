@@ -5,14 +5,34 @@ export default () => (
     <div class={style.content}>
         <Cubes />
         <div class="container">
-            <div class="row justify-content-center py-5">
-                <div class="col-8">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h1
+                        class="h1 pt-5"
+                    >Teaching is in our blood</h1>
+                </div>
+            </div>
+
+            <div class="row pb-5">
+
+                <div class={`col-6 ${style.iframeWrapper}`}>
+
+                    <iframe
+                        src="https://www.youtube.com/embed/FfiQmfiYOzo"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen
+                    ></iframe>
+
+                </div>
+
+                <div class="col-6">
 
                     <br />
                     <br />
 
                     <h1
-                        class="h1 pb-3"
+                        class="h3 pb-3"
                     >Our Motivation</h1>
 
                     <p>
@@ -26,7 +46,7 @@ export default () => (
                     <br />
 
                     <h1
-                        class="h1 pb-3"
+                        class="h3 pb-3"
                     >Our Approach</h1>
 
                     <p>

@@ -1,5 +1,4 @@
 import { Link } from 'preact-router/match';
-import Slider from "react-slick";
 
 import style from '../style.scss';
 import Cube from '../shared/cube';
@@ -11,41 +10,69 @@ export default () => (
         </div>
         <div class="container">
             <div class="row justify-content-center py-5">
-                <div class="col-8">
+                <div class="col-12 text-center">
                     <h1
                         class="h1 pb-3"
-                    >Our services</h1>
-
-                    <Slider {...{
-                        infinite: true,
-                        speed: 500,
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                        responsive: [
-                            {
-                              breakpoint: 1000,
-                              settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1,
-                              }
-                            }
-                          ]
-                    }}>
-                        <Link href={`/service/workflow-auditing`} class={style.slickElement}>
-                            <h3>Workflow Auditing</h3>
-                            <p>Get actionable advice on how to effectively optimize your current workflow</p>
-                        </Link>
-                        <Link href={`/service/cto-on-demand`} class={style.slickElement}>
-                            <h3>CTO on-demand</h3>
-                            <p>Get an unbiased opinion from a Tech Veteran</p>
-                        </Link>
-                        <Link href={`/service/code-auditing`} class={style.slickElement}>
-                            <h3>Code Auditing</h3>
-                            <p>Get actionable advice on how to effectively improve your developer satisfaction</p>
-                        </Link>
-                    </Slider>
+                    >When workshops aren't enough</h1>
                 </div>
             </div>
+            <div class="row justify-content-center" style={{padding: '20px 0px'}}>
+                <div class="col-sm-4 box-wrapper-wrapper">
+                    <Link href={`/service/workflow-auditing`}>
+                        <div class="box-wrapper">
+                            <p class="t1">
+                                <span>
+                                    Workflow Auditing
+                                    <br />
+                                    <b>Service</b>
+                                </span>
+                                <span class="emoji">🚄</span>
+                            </p>
+                            <p class="t2">React, Angular, Redux, Webpack - What you really need to know.</p>
+                            <div class="action-button-wrapper" style={{ 'justify-content' : 'space-around'}}>
+                                <div class="action-button">learn more</div>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+                <div class="col-sm-4 box-wrapper-wrapper">
+                    <Link href={`/service/cto-on-demand`}>
+                        <div class="box-wrapper">
+                            <p class="t1">
+                                <span>
+                                    CTO on-demand
+                                    <br />
+                                    <b>Service</b>
+                                </span>
+                                <span class="emoji">💎</span>
+                            </p>
+                            <p class="t2">Get an unbiased opinion from a Tech Veteran</p>
+                            <div class="action-button-wrapper" style={{ 'justify-content' : 'space-around'}}>
+                                <div class="action-button">learn more</div>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+                <div class="col-sm-4 box-wrapper-wrapper">
+                    <Link href={`/service/code-auditing`}>
+                        <div class="box-wrapper">
+                            <p class="t1">
+                                <span>
+                                    Code Auditing
+                                    <br />
+                                    <b>Service</b>
+                                </span>
+                                <span class="emoji">🔬</span>
+                            </p>
+                            <p class="t2">Get actionable advice on how to effectively improve your developer satisfaction</p>
+                            <div class="action-button-wrapper" style={{ 'justify-content' : 'space-around'}}>
+                                <div class="action-button">learn more</div>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+            </div>
+
         </div>
     </div>
 )

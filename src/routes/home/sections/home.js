@@ -11,15 +11,75 @@ export default () => (
                 class="h1"
             >Tasteful</h1>
             <h2
-                class={`p ${style.p}`}
+                class={`p ${style.slogan}`}
             >
-                We teach humans to enjoy making high quality and infinitely
-                scalable software, as it's meant to be.
+                We teach you to make high quality and
+                scalable software.
             </h2>
+        </div>
+        <div class="container">
+            <div class="row" style={{padding: '20px 0px'}}>
+                <div class="col-sm-4 box-wrapper-wrapper">
+                    <Link href={`/workshop/front-end-architecture`}>
+                        <div class="box-wrapper">
+                            <p class="t1">
+                                <span>
+                                    Front End Architecture
+                                    <br />
+                                    <b>Workshop</b>
+                                </span>
+                                <span class="emoji">🏗</span>
+                            </p>
+                            <p class="t2">React, Angular, Redux, Webpack - What you really need to know.</p>
+                            <div class="action-button-wrapper" style={{ 'justify-content' : 'space-around'}}>
+                                <div class="action-button">learn more</div>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+                <div class="col-sm-4 box-wrapper-wrapper">
+                    <Link href={`/workshop/front-end-architecture`}>
+                        <div class="box-wrapper">
+                            <p class="t1">
+                                <span>
+                                    Ultimate React
+                                    <br />
+                                    <b>Workshop</b>
+                                </span>
+                                <span class="emoji">⚡️</span>
+                            </p>
+                            <p class="t2">Using Recompose and GraphQL to scale React to the Moon</p>
+                            <div class="action-button-wrapper" style={{ 'justify-content' : 'space-around'}}>
+                                <div class="action-button">learn more</div>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+                <div class="col-sm-4 box-wrapper-wrapper">
+                    <Link href={`/service/code-auditing`}>
+                        <div class="box-wrapper">
+                            <p class="t1">
+                                <span>
+                                Code Auditing
+                                    <br />
+                                    <b>Service</b>
+                                </span>
+                                <span class="emoji">🔬</span>
+                            </p>
+                            <p class="t2">Get actionable advice on how to effectively improve your developer satisfaction</p>
+                            <div class="action-button-wrapper" style={{ 'justify-content' : 'space-around'}}>
+                                <div class="action-button">learn more</div>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+            </div>
+        </div>
+        <div class={style.inner}>
             <div>
-                <a class={style.link} href={`#workshops`}>Book a workshop!</a>
-                <span style={{padding: `0 10px`}}>|</span>
-                <a class={style.link} href={`#services`}>Request a service!</a>
+                <a class={style.link} href={`#workshops`}>More workshops</a>
+                <span style={{ padding: `0 10px` }}>|</span>
+                <a class={style.link} href={`#services`}>More services</a>
             </div>
         </div>
     </div>
