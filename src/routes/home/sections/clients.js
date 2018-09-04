@@ -2,51 +2,76 @@ import style from '../style.scss';
 import Slider from "react-slick";
 
 export default () => (
-    <div class={style.content}>
-        <div class="container">
-            <div class="row justify-content-center py-5">
+    <div>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
                 <div class="col-8">
 
-                    <br />
-                    <br />
-
-                    <h1
-                        class="h1 pb-3"
-                    >Companies we've colaborated with</h1>
-
-                    <Slider {...{
-                        infinite: true,
-                        speed: 500,
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                        responsive: [
-                            {
-                              breakpoint: 1000,
-                              settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1,
-                              }
-                            }
-                          ]
-                    }}>
-                        <div class={style.slickElement}>
-                            <p>Google</p>
-                        </div>
-                        <div class={style.slickElement}>
-                            <p>Google</p>
-                        </div>
-                        <div class={style.slickElement}>
-                            <p>Google</p>
-                        </div>
-                        <div class={style.slickElement}>
-                            <p>Google</p>
-                        </div>
-                        <div class={style.slickElement}>
-                            <p>Google</p>
-                        </div>
-                    </Slider>
-
+                    <h3
+                        class="h1 py-3 text-center"
+                        style={{color: 'white'}}
+                    >We have trained people at</h3>
                 
+                </div>
+            </div>
+            <div class="row">
+                <div class="animated-lister">
+                    <div class="lister-container">
+                        <ul>
+                            {/* {Array.from({length: 12}, (x, i) => ( */}
+                            <li>
+                                <img
+                                    src={require('../../../assets/clients/gh.png')}
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    src={require('../../../assets/clients/g.png')}
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    src={require('../../../assets/clients/gh.png')}
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    src={require('../../../assets/clients/g.png')}
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    src={require('../../../assets/clients/gh.png')}
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    src={require('../../../assets/clients/g.png')}
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    src={require('../../../assets/clients/gh.png')}
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    src={require('../../../assets/clients/g.png')}
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    src={require('../../../assets/clients/gh.png')}
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    src={require('../../../assets/clients/g.png')}
+                                />
+                            </li>
+                            {/* ))} */}
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

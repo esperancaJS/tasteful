@@ -21,6 +21,14 @@ const Home = () => (
 
 		<WhyUsSection />
 
+		<Parallax
+			bgImage={require('../../assets/backgrounds/1_compressed.jpg')}
+		>
+			<Clients />
+		</Parallax>
+
+		<PeopleSection />
+
 		<ParallaxDivider /> {/* Divider */}
 
 		<WorkshopsSection />
@@ -29,13 +37,13 @@ const Home = () => (
 
 		<ServicesSection />
 
-		<ParallaxDivider /> {/* Divider */}
+		{/* <ParallaxDivider /> Divider */}
 
-		<PeopleSection />
-
-		<ParallaxDivider /> {/* Divider */}
-
-		<Location />
+		<Parallax
+			bgImage={require('../../assets/backgrounds/1_compressed.jpg')}
+		>
+			<Location />
+		</Parallax>
 
 	</span>
 );

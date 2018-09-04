@@ -13,12 +13,12 @@ export default () => (
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 people-wrapper-wrapper">
+                <div class="col-lg-4 col-md-6 people-wrapper-wrapper">
                     <div class={`people-wrapper`}>
                        <div class="row">
                             <div class="col-12 text-center">
                                 <img
-                                    src={require('../../../assets/avatars/pe.jpeg')}
+                                    src={require('../../../assets/avatars/pe.jpg')}
                                 />
                             </div>
                         </div>
@@ -62,7 +62,7 @@ export default () => (
                         </div>
                     </div>
                 </div>
-                <div class="col-4 people-wrapper-wrapper">
+                <div class="col-lg-4 col-md-6 people-wrapper-wrapper">
                     <div class={`people-wrapper`}>
                         <div class="row">
                             <div class="col-12 text-center">
@@ -111,7 +111,7 @@ export default () => (
                         </div>
                     </div>
                 </div>
-                <div class="col-4 people-wrapper-wrapper">
+                <div class="col-lg-4 col-md-6 people-wrapper-wrapper">
                     <div class={`people-wrapper`}>
                        <div class="row">
                             <div class="col-12 text-center">
@@ -160,7 +160,7 @@ export default () => (
                         </div>
                     </div>
                 </div>
-                <div class="col-4 people-wrapper-wrapper">
+                <div class="col-lg-4 col-md-6 people-wrapper-wrapper">
                     <div class={`people-wrapper`}>
                        <div class="row">
                             <div class="col-12 text-center">
@@ -209,7 +209,7 @@ export default () => (
                         </div>
                     </div>
                 </div>
-                <div class="col-4 people-wrapper-wrapper">
+                <div class="col-lg-4 col-md-6 people-wrapper-wrapper">
                     <div class={`people-wrapper`}>
                         <div class="row">
                             <div class="col-12 text-center">
@@ -258,7 +258,7 @@ export default () => (
                         </div>
                     </div>
                 </div>
-                <div class="col-4 people-wrapper-wrapper">
+                <div class="col-lg-4 col-md-6 people-wrapper-wrapper">
                     <div class={`people-wrapper`}>
                        <div class="row">
                             <div class="col-12 text-center">

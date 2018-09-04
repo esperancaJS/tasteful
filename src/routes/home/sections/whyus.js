@@ -8,14 +8,14 @@ export default () => (
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
                     <h1
-                        class="h1 pt-5"
+                        class="h1 pt-5 pb-5 pb-lg-0"
                     >Teaching is in our blood</h1>
                 </div>
             </div>
 
             <div class="row pb-5">
 
-                <div class={`col-6 ${style.iframeWrapper}`}>
+                <div class={`col-lg-6 ${style.iframeWrapper}`}>
 
                     <iframe
                         src="https://www.youtube.com/embed/FfiQmfiYOzo"
@@ -26,7 +26,7 @@ export default () => (
 
                 </div>
 
-                <div class="col-6">
+                <div class="col-lg-6">
 
                     <br />
                     <br />

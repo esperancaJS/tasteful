@@ -2,7 +2,7 @@ import style from '../style.scss';
 import Slider from "react-slick";
 
 export default () => (
-    <div class={style.content}>
+    <div style={{color: 'white'}}>
         <div class="container">
             <div class="row justify-content-center py-5">
                 <div class="col-8">
