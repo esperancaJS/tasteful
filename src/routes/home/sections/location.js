@@ -3,29 +3,28 @@ import Slider from "react-slick";
 
 export default () => (
     <div style={{color: 'white'}}>
-        <div class="container">
-            <div class="row justify-content-center py-5">
+        <div class="container pt-3">
+            <div class="row justify-content-center pt-5 pb-3">
                 <div class="col-8">
-
-                    <br />
-                    <br />
 
                     <h1
                         class="h1 pb-3"
                     >Location</h1>
 
-                    <h1 class="h4">Where do we work?</h1>
-                    <p class={`p ${style.p}`} >
-                        Basically Anywhere
-                    </p>
+                </div>
+            </div>
 
-                    <br />
-                    <br />
+            <div class="row justify-content-center pb-5">
+                <div class="col-4">
 
-                    <h1 class="h4">Where are we based?</h1>
-                    <p class={`p ${style.p}`} >
-                        London
-                    </p>
+                    <h3 class="h4"><b>Where are we based?</b></h3>
+                    <p class={`p ${style.p}`} >London</p>
+
+                </div>
+                <div class="col-4">
+
+                    <h3 class="h4"><b>Where do we work?</b></h3>
+                    <p class={`p ${style.p}`}>Basically Anywhere</p>
 
                 </div>
             </div>

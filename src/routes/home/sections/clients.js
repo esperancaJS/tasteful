@@ -1,6 +1,18 @@
+const clients = [
+    { img: 'gh.png' },
+    // { img: 'g.png' },
+    { img: 'beamery.svg' },
+    { img: 'ibm5.png' },
+    { img: 'ua.png', maxHeight: '60px' },
+    { img: 'od.png', maxHeight: '60px' },
+    { img: 'sony.png' },
+    { img: 'iw.png', maxHeight: '65px' },
+    { img: 'altar-37.png' },
+];
+
 export default () => (
     <div>
-        <div class="container-fluid">
+        <div class="container-fluid py-3 pb-4">
             <div class="row justify-content-center">
                 <div class="col-8">
 
@@ -15,16 +27,12 @@ export default () => (
                 <div class="animated-lister">
                     <div class="lister-container">
                         <ul>
-                            {[
-                                { img: 'gh.png' },
-                                // { img: 'g.png' },
-                                { img: 'beamery.svg' },
-                                { img: 'ibm5.png' },
-                                { img: 'ua.png', maxHeight: '60px' },
-                                { img: 'od.png', maxHeight: '60px' },
-                                { img: 'sony.png' },
-                                { img: 'iw.png', maxHeight: '65px' },
-                                { img: 'altar-37.png' }
+                            {
+                            
+                            [
+                                ...clients,
+                                ...clients,
+                                ...clients
                             ].map(({img, maxHeight}) => (
                                 <li>
                                     <img

@@ -10,6 +10,8 @@ import ParallaxDivider from './sections/paralaxDivider';
 import Tech from './sections/tech';
 import Location from './sections/location';
 import Clients from './sections/clients';
+import Contact from './sections/contact';
+import Testimonials from './sections/testimonials';
 
 const Home = () => (
 	<span>
@@ -29,11 +31,19 @@ const Home = () => (
 
 		<PeopleSection />
 
-		<ParallaxDivider /> {/* Divider */}
+		<Parallax
+			bgImage={require('../../assets/backgrounds/1_compressed.jpg')}
+		>
+			<Contact />
+		</Parallax>
 
 		<WorkshopsSection />
 
-		<ParallaxDivider /> {/* Divider */}
+		<Parallax
+			bgImage={require('../../assets/backgrounds/1_compressed.jpg')}
+		>
+			<Testimonials />
+		</Parallax>
 
 		<ServicesSection />
 

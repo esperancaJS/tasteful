@@ -209,7 +209,7 @@ ul {
 	height: 130px;
 	
 	.lister-container {
-		width: 2200px;
+		width: 7000px;
 		min-width: 100%;
 
 		ul {
@@ -221,11 +221,58 @@ ul {
 			width: 100%;
 			position: relative;
 			// height: 150px;
-			animation: 115s linear infinite slide;
+			animation: 105s linear infinite slide;
 
 			@keyframes slide {
 				0%   { transform: translate(0,0); }
 				100% { transform: translate(-33.85%,0); }
+			}
+
+			li {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				img {
+					max-height: 37px;
+					max-width: 221px;
+					border-style: none;
+					vertical-align: middle;
+					// background-color: red;
+					position: unset;
+					transform: unset;
+				}
+			}
+
+		}
+	}
+}
+
+.animated-lister-2 {
+    margin-bottom: -40px;
+    display: block;
+    overflow: hidden;
+	position: relative;
+	height: 160px;
+	
+	.lister-container {
+		width: 5000px;
+		min-width: 100%;
+
+		ul {
+			list-style-type: none;
+			display: flex;
+			justify-content: space-between;
+			padding: 32px 0;
+			margin: 0;
+			width: 100%;
+			position: relative;
+			// height: 150px;
+			animation: 105s linear infinite slide2;
+
+			@keyframes slide2 {
+				0%   { transform: translate(-33.85%,0); }
+				100% { transform: translate(0%,0); }
 			}
 
 			li {
