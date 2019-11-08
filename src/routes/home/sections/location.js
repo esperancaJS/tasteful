@@ -8,13 +8,13 @@ export default () => (
                 <div class="col-8">
 
                     <h1
-                        class="h1 pb-3"
+                        class="h1 pb-3 text-center"
                     >Location</h1>
 
                 </div>
             </div>
 
-            <div class="row justify-content-center pb-5">
+            <div class="row justify-content-center pb-5 text-center">
                 <div class="col-4">
 
                     <h3 class="h4"><b>Where are we based?</b></h3>

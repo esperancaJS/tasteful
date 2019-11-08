@@ -53,6 +53,7 @@ const Home = () => (
 			bgImage={require('../../assets/backgrounds/1_compressed.jpg')}
 		>
 			<Location />
+			<Contact />
 		</Parallax>
 
 	</span>
